@@ -1,0 +1,98 @@
+{
+	"psi-header.config": {
+		"forceToTop": true,
+		"author": "Sallehuddin Abdul Latif",
+		"initials": "SAL",
+		"authorEmail": "salleh@sallehuddin.com",
+		"blankLinesAfter": 1,
+		"spacesBetweenYears": false,
+		"license": "MIT",
+		"company": "Sallehuddin Industries",
+		"copyrightHolder": "Sallehuddin Industries",
+		"creationDateZero": "asIs"
+	},
+	"psi-header.changes-tracking": {
+		"isActive": true,
+		"modAuthor": "Modified By:",
+		"modDate": "Last Modified:",
+		"modDateFormat": "dd/MM/yyyy hh:nn:ss",
+		"include": [],
+		"includeGlob": [],
+		"exclude": ["markdown", "json", "jsonc", "shellscript"],
+		"excludeGlob": [
+			"./**/*/ignoreme.*",
+			"./go.mod",
+			"./go.sum",
+			"./.env",
+			"./*.env",
+			"./.gitignore",
+			"./ent/*",
+			"./Dockerfile",
+			"./.gitlab-ci.yml",
+			"./netrc",
+			"./certs/*",
+			"./keys/*",
+			"./*.xml",
+			"./openapi/template/*"
+		],
+		"autoHeader": "autoSave",
+		"enforceHeader": true,
+		"replace": ["Project:", "Filename:"],
+		"updateLicenseVariables": false
+	},
+	"psi-header.license-text": [
+		"This work is licensed under the terms of the MIT license."
+	],
+	"psi-header.templates": [
+		{
+			"language": "*",
+			"template": [
+				"Project: <<projectname>>",
+				"Filename: <<filerelativepath>>",
+				"Created Date: <<filecreated('dddd MMMM Do YYYY HH:mm:ss ZZ')>>",
+				"Author: <<author>> (<<authorEmail>>)",
+				"Company: <<company>>",
+				"--------------------------------------",
+				"Last Modified: <<dateformat('dddd MMMM Do YYYY HH:mm:ss ZZ')>>",
+				"Modified By: <<author>> (<<authorEmail>>)",
+				"--------------------------------------",
+				"Copyright (c) <<year>> <<company>>"
+			]
+		}
+	],
+	"psi-header.lang-config": [
+		{
+			"language": "toml",
+			"begin": "################################################################################",
+			"end": "################################################################################",
+			"prefix": "# ",
+			"suffix": " #",
+			"lineLength": 80
+		},
+		{
+			"language": "makefile",
+			"begin": "################################################################################",
+			"end": "################################################################################",
+			"prefix": "# ",
+			"suffix": " #",
+			"lineLength": 80
+		},
+		{
+			"language": "yaml",
+			"begin": "################################################################################",
+			"end": "################################################################################",
+			"prefix": "# ",
+			"suffix": " #",
+			"lineLength": 80
+		},
+		{
+			"language": "sql",
+			"begin": "--",
+			"end": "--",
+			"prefix": "-- ",
+			"suffix": "",
+			"lineLength": 80
+		}
+	],
+	"cSpell.words": ["qoolqr", "qrgen"]
+}
