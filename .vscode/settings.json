@@ -8,7 +8,7 @@
 		"spacesBetweenYears": false,
 		"license": "MIT",
 		"company": "Sallehuddin Industries",
-		"copyrightHolder": "Sallehuddin Industries",
+		"copyrightHolder": "Sallehuddin Abdul Latif",
 		"creationDateZero": "asIs"
 	},
 	"psi-header.changes-tracking": {
@@ -56,7 +56,7 @@
 				"Last Modified: <<dateformat('dddd MMMM Do YYYY HH:mm:ss ZZ')>>",
 				"Modified By: <<author>> (<<authorEmail>>)",
 				"--------------------------------------",
-				"Copyright (c) <<year>> <<company>>"
+				"Copyright (c) <<year>> <<copyrightHolder>>"
 			]
 		}
 	],

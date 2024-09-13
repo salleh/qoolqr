@@ -1,14 +1,14 @@
 /*
- * Project: cmd
- * Filename: /root.go
+ * Project: QoolQR
+ * Filename: /cmd/root.go
  * Created Date: Friday September 13th 2024 10:56:42 +0800
  * Author: Sallehuddin Abdul Latif (salleh@sallehuddin.com)
  * Company: Sallehuddin Industries
  * --------------------------------------
- * Last Modified: Friday September 13th 2024 11:14:39 +0800
+ * Last Modified: Friday September 13th 2024 11:37:14 +0800
  * Modified By: Sallehuddin Abdul Latif (salleh@sallehuddin.com)
  * --------------------------------------
- * Copyright (c) 2024 Sallehuddin Industries
+ * Copyright (c) 2024 Sallehuddin Abdul Latif
  */
 
 package cmd
